@@ -1,0 +1,21 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "babel",
+        "react",
+        "import"
+        ],
+    "env": {
+        "browser" : true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "import/no-unresolved": "off",
+        "react/jsx-filename-extension": "off",
+        "jsx-quotes": ["error", "prefer-double"],
+        "quotes": ["error", "double"],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "jsx-a11y/no-static-element-interactions": 0
+    }
+}
